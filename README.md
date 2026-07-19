@@ -2,6 +2,20 @@
 
 Syllable Lyrics adds synchronized word-by-word karaoke highlighting to MediaMonkey 5 and MediaMonkey 2024. It extends the built-in Lyrics panel through MediaMonkey's add-on system and does not replace application files.
 
+<img width="1920" height="1080" alt="Screenshot (21)" src="https://github.com/user-attachments/assets/4ea4ba1e-2aae-459d-b881-5abf42c2e430" />
+
+## Fullscreen Mode
+
+<img width="1920" height="1080" alt="Screenshot (22)" src="https://github.com/user-attachments/assets/44312974-3ec4-44a9-a56f-2029bb10edb0" />
+
+## Romanized
+
+<img width="1920" height="1080" alt="Screenshot (25)" src="https://github.com/user-attachments/assets/d7f35671-7ac7-4bfc-9f4b-9c86d0c0b7de" />
+
+<img width="1920" height="1080" alt="Screenshot (24)" src="https://github.com/user-attachments/assets/03809175-deaf-4f1f-a915-fccae1bad469" />
+
+
+
 ## Features
 
 - Word and syllable highlighting synchronized with playback
@@ -46,12 +60,15 @@ Install `dist/SyllableLyrics-0.1.20.mmip` from `Tools > Addons > Add`, then relo
 
 ## Usage
 
-1. Start playing a track and open MediaMonkey's Lyrics panel.
-2. Select the lyrics button in the panel header to switch between MediaMonkey's standard view and Syllable Lyrics.
-3. Select a timed lyric line to seek to that position in the track.
-4. Use the refresh button to clear the cached result and retry embedded and online lyric lookup.
-5. Use the fullscreen button for centered lyrics over blurred album artwork.
-6. Use `Romanize` to switch between original and Latin-script lyrics when romanization is available.
+1. Configure the Lyrics panel. Go to View (Top bar) --> Layout,
+
+<img width="1920" height="1080" alt="Screenshot (19)" src="https://github.com/user-attachments/assets/3cd99577-a677-40ba-93fe-6d6284c2a12a" />
+
+3. then drag the Lyrics panel wherever you want; you can adjust its position as you like.
+4. Select a timed lyric line to seek to that position in the track.
+5. Use the refresh button to clear the cached result and retry embedded and online lyric lookup.
+6. Use the fullscreen button for centred lyrics over blurred album artwork.
+7. Use `Romanize` to switch between original and Latin-script lyrics when romanization is available.
 
 Syllable Lyrics starts enabled. The normal and fullscreen views share the same Romanize setting.
 
