@@ -1,0 +1,22 @@
+<div class="uiRows">
+    <div>
+        <div data-id="enabled" data-control-class="Checkbox" data-tip="Show synchronized lyrics instead of MediaMonkey's standard lyrics view.">Enable Syllable Lyrics</div>
+    </div>
+    <div>
+        <div data-id="online" data-control-class="Checkbox" data-tip="Search Lyrics+, Unison, and LRCLIB when embedded lyrics are not word synchronized.">Allow online lyric lookup</div>
+    </div>
+    <div class="unimportantText">
+        Online lookup sends the current track title, artist, album, duration, and ISRC when available to third-party lyric services.
+        Enabling romanization may send non-Latin lyric text to Google Translate when the lyric provider does not include romanized text.
+    </div>
+    <div>
+        <div data-id="romanization" data-control-class="Checkbox" data-tip="Show phonetic Latin-script lyrics when provider romanization is available or can be generated online.">Show romanized lyrics</div>
+    </div>
+    <div>
+        <div data-id="smoothScroll" data-control-class="Checkbox" data-tip="Animate automatic scrolling to the active lyric line.">Smooth automatic scrolling</div>
+    </div>
+    <div>
+        <label data-add-colon>Timing offset in milliseconds (-10000 to 10000)</label>
+        <div data-id="offsetMs" data-control-class="Edit" class="edit" data-tip="Positive values highlight lyrics earlier; negative values highlight them later."></div>
+    </div>
+</div>

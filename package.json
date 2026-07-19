@@ -1,0 +1,33 @@
+{
+    "name": "mediamonkey-syllable-lyrics",
+    "version": "0.1.20",
+    "private": true,
+    "description": "Word-timed karaoke lyrics for MediaMonkey",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Dipak-Chauhan/Syllable-Lyrics.git"
+    },
+    "homepage": "https://github.com/Dipak-Chauhan/Syllable-Lyrics#readme",
+    "bugs": {
+        "url": "https://github.com/Dipak-Chauhan/Syllable-Lyrics/issues"
+    },
+    "keywords": [
+        "mediamonkey",
+        "lyrics",
+        "karaoke",
+        "lrc",
+        "ttml"
+    ],
+    "scripts": {
+        "test": "node --test",
+        "check": "node --check lib/lyricsCore.js && node --check controls/lyricsWindow_add.js && node --check config.js && node --check tests/lyricsCore.test.js",
+        "build": "powershell -NoProfile -ExecutionPolicy Bypass -File ./build.ps1"
+    },
+    "engines": {
+        "node": ">=18"
+    },
+    "devDependencies": {
+        "@xmldom/xmldom": "0.9.10"
+    }
+}

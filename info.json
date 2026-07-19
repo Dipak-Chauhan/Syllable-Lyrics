@@ -1,0 +1,11 @@
+{
+    "title": "Syllable Lyrics",
+    "id": "syllableLyrics",
+    "description": "Adds synchronized word-by-word karaoke highlighting and embedded or online lyrics to the MediaMonkey Lyrics panel.",
+    "version": "0.1.20",
+    "minAppVersion": "5.0.0",
+    "type": "general",
+    "author": "GhosT",
+    "config": "config.js",
+    "showRestartPrompt": "true"
+}
